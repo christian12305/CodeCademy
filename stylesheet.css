@@ -12,6 +12,11 @@ h2 {
   text-align: center;
 }
 
+p {
+  text-align: center;
+}
+
+
 table {
   border: 2px solid black;
   width: 650px;
