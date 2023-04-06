@@ -1,44 +1,140 @@
 /* latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 300;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmSU5fBBc4AMP6lQ.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/spacegrotesk/v15/V8mQoQDjQSkFtoMM3T6r8E7mF71Q-gOoraIAEj7oUXskPMBBSSJLm2E.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+  
+  body {
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    color: black;
+    background-color: white;
+    margin: 10px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: 'Space Grotesk';
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 18px;
+    font-weight: normal;
+    font-family: 'Space Grotesk';
+    color: black;
+    text-align: center;
+  }
 
-body {
-  font-family: 'Roboto', Arial, sans-serif;
-  color: black;
-  background-color: white;
-}
 
-h1 {
-  font-weight: bold;
-  text-align: center;
-}
 
-h2 {
-  color: midnightblue;
-  text-align: center;
-}
 
-p {
-  text-align: center;
-}
 
-table {
-  color: black;
-  border: 2px solid black;
-  width: 650px;
-  margin: 0 auto;
-}
 
-thead {
-  background-color: blue;
-}
 
-td {
-  border-top: 1px solid lightblue;
-}
+
+
+
+  p{
+    font-size: 9px;
+    font-weight: 300;
+    font-family: 'Space Grotesk';
+    color: white;
+  }
+
+  .white p{
+    color: black;
+  }
+
+  .color-scheme{ 
+    border: solid 1px black;
+    width: 100%;
+  }
+
+  .color-panel{
+    text-align: center;
+    display: inline-block;
+    width: 33%;
+    border-radius: 10px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .cyan{
+    background-color: #0FB7AB;
+  }
+
+  .green{
+    background-color: #065B36;
+  }
+
+  .yellow{
+    background-color: #E89A10;
+  }
+
+  .red{
+    background-color: #9B0D24;
+  }
+
+  .pink{
+    background-color: #C91752;
+  }
+
+  .purple{
+    background-color: #5E2DD6;
+  }
+
+  .blue{
+    background-color: #0F3293;
+  }
+
+  .black{
+    background-color: #0F0F0F;
+  }
+
+  .white{
+    background-color: #EFEFEF;
+  }
+
+
+
+  
+
+
+  .fonts{
+    text-align: left;
+  }
+  .space-grotesk p{
+    color: black;
+  }
+  .font-scheme{
+    border: solid 1px black;
+    width: 100%;
+  }
+
+  .space-grotesk{
+    font-family: 'Space Grotesk', Arial, sans-serif;
+    color: gold;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .font-label{
+    text-decoration: underline;
+  }
+
+  .normal {
+    font-style: normal;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
